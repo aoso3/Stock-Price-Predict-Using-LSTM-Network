@@ -21,5 +21,4 @@ testPredictPlot = np.empty_like(PreProcessing.features)
 testPredictPlot[:, :] = np.nan
 testPredictPlot[len(PreProcessing.features) -  len(PreProcessing.test) + 1 :len(PreProcessing.features) - 1, :] = testPredict
 
-
 Visualization.Plot(Original_data,train,validationPlot,testPredictPlot)

@@ -22,17 +22,8 @@ features = dataset.mean(axis = 1)
 features = np.reshape(features.values, (len(features),1))
 features = scaler.fit_transform(features)
 
-# train = int(len(features) * 0.85)
-# test = int(len(features) - train)
-# val = int(len(features) * 0.15)
-#
-# train, test, val = features[0:train,:], features[test:len(features),:], features[train - val :val,:]
-
 train, test = train_test_split(features, test_size=0.2, shuffle=False, random_state=3)
-
 train, val = train_test_split(train, test_size=0.15, shuffle=False, random_state=3)
-
-
 
 trainX, trainY = time_series(train,1)
 testX, testY = time_series(test, 1)
