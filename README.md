@@ -1,5 +1,5 @@
 # Stock-Price-Pridect-Using-LSTM-Network
-Stock Price Pridect Using Long-Sort Term Memory (LSTM) Network
+Stock Price Prediction Using Long-Short Term Memory (LSTM) Network
 
 ![Alt text](Screenshots/stock.PNG?raw=true "Stock")
 
