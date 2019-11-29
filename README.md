@@ -12,5 +12,5 @@ Pandas<br>
 Pickle<br>
 <br>
 
-<H1>How to:</H1>
+<H1>How to</H1>
 Run "MyModel.py" to train new model. and to make pridection and visualization run "Main.py".
